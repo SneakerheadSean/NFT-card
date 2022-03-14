@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+}
+
+.card {
+ padding: 10rem 0 0;
+ max-width: 35ch;
+}
+
+.creator {
+    display: flex;
+}
