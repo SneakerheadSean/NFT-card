@@ -30,6 +30,8 @@ body {
 #avatar {
     height: 5vh;
     width: 7vw;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 #card-image {
@@ -39,8 +41,25 @@ body {
 }
 
 .price {
-    padding: 4px 8px;
+    padding: 6px 8px;
     border-radius: 50px;
     font-size: 12px;
     font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#crypto {
+    color: hsl(178, 100%, 50%);
+    text-align: center;
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
 }
