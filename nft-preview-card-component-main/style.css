@@ -11,6 +11,11 @@ body {
     margin-top: 20vh;
 }
 
+.card {
+    padding: 8px;
+    border-radius: 12px;
+}
+
 #card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -22,9 +27,9 @@ body {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
-.avatar {
-    height: 50%;
-    width: 50%;
+#avatar {
+    height: 5vh;
+    width: 7vw;
 }
 
 #card-image {
@@ -33,6 +38,9 @@ body {
   height: 214px;
 }
 
-.nft:hover {
-
+.price {
+    padding: 4px 8px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
 }
