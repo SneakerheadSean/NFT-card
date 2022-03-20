@@ -9,6 +9,7 @@ body {
     max-width: 300px;
     margin: 0 auto;
     margin-top: 20vh;
+    border-radius: 15px
 }
 
 .card {
@@ -37,7 +38,7 @@ body {
 #card-image {
   width: 100%;
   border-radius: 12px;
-  height: 214px;
+  height: 275px;
 }
 
 .price {
